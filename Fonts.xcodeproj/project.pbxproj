@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8458899D24D8100600F961A6 /* FontSizesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8458899C24D8100600F961A6 /* FontSizesViewController.swift */; };
+		8458899F24D8212E00F961A6 /* FontInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8458899E24D8212E00F961A6 /* FontInfoViewController.swift */; };
 		845DDDEA24C1B36C00AE7023 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845DDDE924C1B36C00AE7023 /* AppDelegate.swift */; };
 		845DDDEC24C1B36C00AE7023 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845DDDEB24C1B36C00AE7023 /* SceneDelegate.swift */; };
-		845DDDEE24C1B36C00AE7023 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845DDDED24C1B36C00AE7023 /* ViewController.swift */; };
 		845DDDF124C1B36C00AE7023 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845DDDEF24C1B36C00AE7023 /* Main.storyboard */; };
 		845DDDF324C1B37100AE7023 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845DDDF224C1B37100AE7023 /* Assets.xcassets */; };
 		845DDDF624C1B37100AE7023 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845DDDF424C1B37100AE7023 /* LaunchScreen.storyboard */; };
+		845DDDFE24C1B57400AE7023 /* FavouriteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845DDDFD24C1B57400AE7023 /* FavouriteList.swift */; };
+		845DDE0024C1CD5400AE7023 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845DDDFF24C1CD5400AE7023 /* RootViewController.swift */; };
+		84BA34DB24C1E99B00C775B9 /* FontListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA34DA24C1E99B00C775B9 /* FontListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8458899C24D8100600F961A6 /* FontSizesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSizesViewController.swift; sourceTree = "<group>"; };
+		8458899E24D8212E00F961A6 /* FontInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontInfoViewController.swift; sourceTree = "<group>"; };
 		845DDDE624C1B36C00AE7023 /* Fonts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fonts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		845DDDE924C1B36C00AE7023 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		845DDDEB24C1B36C00AE7023 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		845DDDED24C1B36C00AE7023 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		845DDDF024C1B36C00AE7023 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		845DDDF224C1B37100AE7023 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		845DDDF524C1B37100AE7023 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		845DDDF724C1B37100AE7023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845DDDFD24C1B57400AE7023 /* FavouriteList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteList.swift; sourceTree = "<group>"; };
+		845DDDFF24C1CD5400AE7023 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		84BA34DA24C1E99B00C775B9 /* FontListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +66,12 @@
 			children = (
 				845DDDE924C1B36C00AE7023 /* AppDelegate.swift */,
 				845DDDEB24C1B36C00AE7023 /* SceneDelegate.swift */,
-				845DDDED24C1B36C00AE7023 /* ViewController.swift */,
 				845DDDEF24C1B36C00AE7023 /* Main.storyboard */,
+				845DDDFF24C1CD5400AE7023 /* RootViewController.swift */,
+				84BA34DA24C1E99B00C775B9 /* FontListViewController.swift */,
+				8458899C24D8100600F961A6 /* FontSizesViewController.swift */,
+				8458899E24D8212E00F961A6 /* FontInfoViewController.swift */,
+				845DDDFD24C1B57400AE7023 /* FavouriteList.swift */,
 				845DDDF224C1B37100AE7023 /* Assets.xcassets */,
 				845DDDF424C1B37100AE7023 /* LaunchScreen.storyboard */,
 				845DDDF724C1B37100AE7023 /* Info.plist */,
@@ -138,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				845DDDEE24C1B36C00AE7023 /* ViewController.swift in Sources */,
 				845DDDEA24C1B36C00AE7023 /* AppDelegate.swift in Sources */,
 				845DDDEC24C1B36C00AE7023 /* SceneDelegate.swift in Sources */,
+				84BA34DB24C1E99B00C775B9 /* FontListViewController.swift in Sources */,
+				845DDE0024C1CD5400AE7023 /* RootViewController.swift in Sources */,
+				8458899D24D8100600F961A6 /* FontSizesViewController.swift in Sources */,
+				845DDDFE24C1B57400AE7023 /* FavouriteList.swift in Sources */,
+				8458899F24D8212E00F961A6 /* FontInfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
